@@ -1,0 +1,17 @@
+*{margin:0}
+
+body{
+    margin: auto;
+}
+
+section.container{
+    display: flex;
+}
+
+section.row{
+    flex-direction: row;
+}
+
+section.column{
+    flex-direction: column;
+}
