@@ -43,10 +43,27 @@ header ul li a{
 }
 
 
-section#home.container.column{
-    height:400px;
+section#home.container.row{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height:300px; 
     background-color: #11ABBF;
     color:white;
+}
+
+h1{
+    font-size: 4.1em;
+    padding-right: 2.8em;
+    letter-spacing: .1em; 
+}
+
+
+section#home-web.container.row{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #11ABBF;
 }
 
 div.web{
@@ -54,20 +71,21 @@ div.web{
 }
 
 div.icon-home{
-    font-size: 2em;
+    font-size: 2.5em;
+    color: white;
 }
 
 section#robin.container.row{
     height:200px;
     display:flex;
-
-
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 div.hood{
     background-color:#27212D;
-    width: 70%;
-    
+    width: 70%;    
     color:white;
     text-align: center;
     font-size: 2em;
@@ -75,19 +93,33 @@ div.hood{
 }
 
 div.icon-robin{
+    display:flex;
     background-color:#BC3184;
-    height:200px;
     width: 30%;
+    height: 200px;
     color:white;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
 }
 
 section#photos.container.row{
     display: flex;
+    background-color: #5A0FA0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
     height: 250px;
 }
 
 #photos img{
-    width:25vw;
+    width:19vw;
+    height:250px
+}
 
+div.icon-photos{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
