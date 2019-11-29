@@ -1,6 +1,7 @@
 *{margin:0}
 
 body{
+    width: 1024px;
     margin: 40px;
 }
 
@@ -19,9 +20,9 @@ section.column{
 section.container.row{
     display:flex;
     justify-content:flex-start;
-    background-color:#27212D;
+    background-color:#373c3f;
     align-items: center;
-    height: 50px;
+    height: 95px;
 }
 
 header ul{
@@ -47,36 +48,44 @@ section#home.container.row{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height:300px; 
-    background-color: #11ABBF;
+    height:340px; 
+    background-color: #11abbf;
     color:white;
 }
 
 h1{
-    font-size: 4.1em;
-    padding-right: 2.8em;
+    font-size: 3.5em;
+    padding-right: 1.7em;
     letter-spacing: .1em; 
 }
 
 
+
 section#home-web.container.row{
     display: flex;
-    justify-content: space-around;
-    height: 300px;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 280px;
     background-color: #11ABBF;
 }
 
 div.web{
-    opacity: 0.5;
+    padding: 30px 85px;
+    font-size: 2.2em;
+    color:#add4e3;
 }
 
+
 div.icon-home{
-    font-size: 2.5em;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-right: 220px;     
     color: white;
 }
 
 section#robin.container.row{
-    height:200px;
+    background-color:#27212D;
+    height:250px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -84,19 +93,19 @@ section#robin.container.row{
 }
 
 div.hood{
-    background-color:#27212D;
-    width: 70%;    
-    color:white;
+    width: 95%;    
+    color:#9a8ba8;
     text-align: center;
-    font-size: 2em;
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
 
 }
 
 div.icon-robin{
     display:flex;
     background-color:#BC3184;
-    width: 30%;
-    height: 200px;
+    width: 20%;
+    height: 250px;
     color:white;
     align-items: center;
     justify-content: center;
@@ -106,19 +115,20 @@ div.icon-robin{
 section#photos.container.row{
     display: flex;
     background-color: #5A0FA0;
-    flex-direction: row;
     align-items: center;
     justify-content: flex-end;
     height: 250px;
 }
 
 #photos img{
-    width:19vw;
+    height:250px
+    width:33%;
     height:250px
 }
 
 div.icon-photos{
     color: white;
+    width: 33%;
     justify-content: center;
     align-items: center;
     align-content: center;
