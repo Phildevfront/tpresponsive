@@ -1,12 +1,14 @@
 *{margin:0}
 
 body{
-    width: 1024px;
+    max-width: 1024px;
     margin: 40px;
+    
 }
 
 section.container{
     display: flex;
+    max-width: 1024px;
 }
 
 section.row{
@@ -34,11 +36,13 @@ header ul{
 
 header ul li{
     list-style: none;
-    margin-left: 50px;
+    margin-left: 20px;
       
 }
 
 header ul li a{
+    font-size: 0.9em;
+    font-weight: 600;
     color: white;
     text-decoration: none;
 }
@@ -47,16 +51,17 @@ header ul li a{
 section#home.container.row{
     display: flex;
     align-items: flex-end;
-    justify-content: center;
-    height:340px; 
+    justify-content: flex-start;
+    height:300px; 
     background-color: #11abbf;
     color:white;
 }
 
 h1{
-    font-size: 3.5em;
-    padding-right: 1.7em;
-    letter-spacing: .1em; 
+    font-size: 4em;
+    font-weight: 600;
+    padding-left:85px;
+   
 }
 
 
@@ -70,66 +75,149 @@ section#home-web.container.row{
 }
 
 div.web{
-    padding: 30px 85px;
-    font-size: 2.2em;
+    font-size: 1.35em;
+    letter-spacing: .1em;
     color:#add4e3;
+    padding:50px 0 0 80px;
+    
 }
 
 
 div.icon-home{
-    font-size: 2em;
-    padding-top: 30px;
-    padding-right: 220px;     
+    font-size: 2.3em;
+    padding-top: 50px;
+    padding-right: 230px;     
     color: white;
 }
 
+
+/* MIDDLE PAGE ROBIN HOOD */
+
+
 section#robin.container.row{
-    background-color:#27212D;
-    height:250px;
     display:flex;
+    height:245px;
+    background-color:#27212D;
     align-items: center;
-    justify-content: center;
-    align-content: center;
+   
+    
 }
 
 div.hood{
-    width: 95%;    
+    width: 100%;    
     color:#9a8ba8;
-    text-align: center;
+    text-align: justify;
     letter-spacing: 0.2em;
-    font-size: 1.5em;
+    font-size: 1.35em;
+    padding-left:80px
 
 }
 
 div.icon-robin{
-    display:flex;
+    display: flex;
     background-color:#BC3184;
-    width: 20%;
-    height: 250px;
+    width: 33%;
+    height: 245px;
     color:white;
     align-items: center;
     justify-content: center;
     font-size: 2em;
 }
 
+
+/* SECTION PHOTO */
+
 section#photos.container.row{
     display: flex;
+    width: 100%;
     background-color: #5A0FA0;
     align-items: center;
-    justify-content: flex-end;
-    height: 250px;
+    justify-content:flex-end ;
+    height: 295px;
 }
 
 #photos img{
-    height:250px
+    height:295px;
     width:33%;
-    height:250px
+    
 }
 
 div.icon-photos{
-    color: white;
-    width: 33%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    color: white;
+    width: 33%;
+    font-size: 2em;
+   
+    
 }
+
+/* FOOT PAGE */
+
+
+section#foot-page-title.container.row{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #EBEBEB;
+    height:80px;
+}
+
+
+section#foot-page-text.container.row{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #EBEBEB;
+    height:470px;
+    
+}
+
+h4{
+    font-size: 1.7em;
+    font-weight: 400;
+    color: #11ABBF;
+    padding:40px 0 0 80px;
+}
+
+
+p{
+    font-size: 0.75em;    
+    line-height: 25px;
+    padding:10px 50px 0 80px;
+}
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 980px) {
+    
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .body{
+        display: block;
+    }
+    .main{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+
+}
+
+
